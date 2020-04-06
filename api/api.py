@@ -20,7 +20,7 @@ def tulika():
 def movies():
 
     name = request.args.get('name')
-    url = "http://www.omdbapi.com/?t=" + name+ "&apikey=2f03aad5"
+    url = "http://www.omdbapi.com/?t=" + name+ "&apikey=xxxxxxx"
 
     response = requests.request("GET", url)
 
